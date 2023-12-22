@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a1544;
+    text-align: center;
+    padding: 100px;
+}
+
+.thank-you-message {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-message h2 {
+    color: #0ef; /* Google Blue */
+}
+
+.thank-you-message p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(255, 248, 248);
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef; 
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(3, 3, 3);
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;   
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef
+}
+.btn-box:hover {
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef,0 0 50px #0ef;
+} 
